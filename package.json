@@ -1,0 +1,39 @@
+{
+  "name": "web-feature-toggle-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:prod": "tsc && vite build --mode production",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yutaroyoshikawa/web-feature-toggle-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yutaroyoshikawa/web-feature-toggle-sample/issues"
+  },
+  "homepage": "https://github.com/yutaroyoshikawa/web-feature-toggle-sample#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.4.1",
+    "eslint-plugin-lit": "^1.6.1",
+    "prettier": "^2.5.1",
+    "ts-lit-plugin": "^1.0.5",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.2",
+    "vite-plugin-html": "^2.1.1"
+  },
+  "dependencies": {
+    "@vaadin/router": "^1.7.4",
+    "lit": "^2.0.2",
+    "unleash-proxy-client": "^1.9.0"
+  }
+}
